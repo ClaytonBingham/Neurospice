@@ -34,6 +34,7 @@ Neurospice v1.0 comprises a Python library to support automated construction of 
 
 ![(8) Neurospice Diagram](https://user-images.githubusercontent.com/7799699/87973796-10dcce00-ca97-11ea-9fa2-2900ab6f7f50.jpg)
 
+```
 #!/usr/bin/env python
 
 import os
@@ -171,4 +172,4 @@ if __name__ == '__main__':
 		
 		build_and_solve_LFPs(recording_point=recloc,unique_name='split_unstruc_tet_'+str(ncount),datadir=data_dir,node_count=ncount,current_handling_algo='split',geometry='unstructured_tet',threads=nthreads)
 
-
+```
