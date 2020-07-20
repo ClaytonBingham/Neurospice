@@ -9,7 +9,9 @@ Neurospice v1.0 comprises a Python library to support automated construction of 
 
 
 ### Hexahedral (70µm)
-![Alt Text] (https://lh3.googleusercontent.com/zKlr_suqJEsR-rzCPKlIAYcYVJP4uGyUsykjIf5ltgcHelYkadfS01tmNjlB6vb7yYr5mkLsT0RbFmGKHhDN3e12iXgGsatZH7tBvegY)
+
+![(1) Hexahderal](https://user-images.githubusercontent.com/7799699/87974584-4a620900-ca98-11ea-8dfd-07da7c086ba7.gif)
+
 
 ### Idealized Tetrahedral (≈70µm)
 
