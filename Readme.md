@@ -8,9 +8,9 @@ Due to the spatial, temporal, and magnitudinal differences in electrode vs. neur
 Neurospice v1.0 comprises a Python library to support automated construction of a mesh and field solution with user defined current sources as the input. This library could be used to support in silico estimation of Local Field Potentials where activated neuronal models are used to generate extracellular potentials.
 
 
-Please cite the following paper if you use any of the code in this repository either directly or as inspiration:
+**Please cite the following paper if you use any of the code in this repository either directly or as inspiration:**
 
-Bingham CS, Paknahad J, Girard CBC, Loizos K, Bouteiller J-MC, Song D, Lazzi G and Berger TW. (2020). Admittance Method for Estimating Local Field Potentials Generated in a Multi-Scale Neuron Model of the Hippocampus. Front. Comput. Neurosci. 14:72. doi: 10.3389/fncom.2020.00072
+**Bingham CS, Paknahad J, Girard CBC, Loizos K, Bouteiller J-MC, Song D, Lazzi G and Berger TW. (2020). Admittance Method for Estimating Local Field Potentials Generated in a Multi-Scale Neuron Model of the Hippocampus. Front. Comput. Neurosci. 14:72. doi: 10.3389/fncom.2020.00072**
 
 
 ### Hexahedral (70µm)
