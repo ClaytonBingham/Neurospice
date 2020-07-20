@@ -34,37 +34,24 @@ Neurospice v1.0 comprises a Python library to support automated construction of 
 
 ![(8) Neurospice Diagram](https://user-images.githubusercontent.com/7799699/87973796-10dcce00-ca97-11ea-9fa2-2900ab6f7f50.jpg)
 
+Example Script:
+
 ```
 #!/usr/bin/env python
 
 import os
-
 import neurospice
-
 import numpy as np
-
 from neurospice.MeshVisualizer import VisualizeTetMesh, VisualizeHexMesh
-
 from neurospice.BoundingBoxBuilder import BuildBoundingBox
-
 from neurospice.CurrentSourceManager import ShiftCurrents, SplitCurrents
-
 from neurospice.BasicGeometries import CubicNodes, UnstructuredNodes
-
 from neurospice.SolutionBuilder import *
-
 from neurospice.ConvenientTools import helpme,timeit
-
-from neurospice.CubicModelPlotter import PlotModelSimulation, 
-
-constant_camera_view, PlotVoltageTraces
-
+from neurospice.CubicModelPlotter import PlotModelSimulation, constant_camera_view, PlotVoltageTraces
 import time
-
 import pickle
-
 import zipfile
-
 try:
     import zlib
     compression = zipfile.ZIP_DEFLATED
@@ -166,10 +153,9 @@ if __name__ == '__main__':
 	for ncount in range(6501,8501,2000):
 		build_and_solve_LFPs(recording_points=recloc,unique_name='shift_struc_hex_'+str(ncount),datadir=data_dir,node_count=ncount,current_handling_algo='shift',geometry='structured_hex',threads=nthreads)
 		
-		build_and_solve_LFPs(recording_points=recloc,unique_name='shift_unstruc_tet_'+str(ncount),datadir=data_dir,node_count=ncount,current_handling_algo='shift',geometry='unstructured_tet',threads=nthreads)
+build_and_solve_LFPs(recording_points=recloc,unique_name='shift_unstruc_tet_'+str(ncount),datadir=data_dir,node_count=ncount,current_handling_algo='shift',geometry='unstructured_tet',threads=nthreads)
+				build_and_solve_LFPs(recording_point=recloc,unique_name='split_struc_hex_'+str(ncount),datadir=data_dir,node_count=ncount,current_handling_algo='split',geometry='structured_hex',threads=nthreads)
 		
-		build_and_solve_LFPs(recording_point=recloc,unique_name='split_struc_hex_'+str(ncount),datadir=data_dir,node_count=ncount,current_handling_algo='split',geometry='structured_hex',threads=nthreads)
-		
-		build_and_solve_LFPs(recording_point=recloc,unique_name='split_unstruc_tet_'+str(ncount),datadir=data_dir,node_count=ncount,current_handling_algo='split',geometry='unstructured_tet',threads=nthreads)
+build_and_solve_LFPs(recording_point=recloc,unique_name='split_unstruc_tet_'+str(ncount),datadir=data_dir,node_count=ncount,current_handling_algo='split',geometry='unstructured_tet',threads=nthreads)
 
 ```
