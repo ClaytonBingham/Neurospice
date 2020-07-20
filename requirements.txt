@@ -1,0 +1,20 @@
+-f --all
+Cython>=0.28.4
+matplotlib>=2.2.2
+mayavi>=4.6.1
+numpy>=1.14.2
+numpy-stl>=2.7.0
+pandas>=0.22.0
+pygmsh>=4.3.6
+PyQt5>=5.11.2
+PyQt5-sip>=4.19.12
+PySpice>=1.2.0
+PyVTK>=0.5.18
+qtconsole>=4.3.1
+qThread>=0.1.0
+Rtree>=0.8.3
+scikit-learn>=0.19.2
+scipy>=1.1.0
+stl>=0.0.3
+trimesh>=2.35.13
+vtk>=8.1.1
