@@ -5,7 +5,7 @@
 /dist/
 
 # Python egg metadata, regenerated from source files by setuptools.
-/*.egg-info/home/clayton/source/Roots/LICENSE
+/*.egg-info/home/clayton/source/Neurospice/LICENSE
 
 # Hoc scripts
 *.hoc
