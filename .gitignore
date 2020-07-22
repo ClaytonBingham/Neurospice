@@ -1,0 +1,29 @@
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info/home/clayton/source/Roots/LICENSE
+
+# Hoc scripts
+*.hoc
+
+# Random datafiles
+*.swc
+*.csv
+*.zip
+*.pickle
+
+
+
+# Supporting Python Scripts
+__init__.py
+BasicGeometries.py
+BoundingBoxBuilder.py
+ConvenientTools.py
+CubicModelPlotter.py
+CurrentSourceManager.py
+MeshVisualizer.py
+SolutionBuilder.py
